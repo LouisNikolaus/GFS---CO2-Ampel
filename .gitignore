@@ -1,0 +1,25 @@
+# KiCad: Sicherungen, Sperrdateien, lokale Einstellungen
+*-backups/
+*.lck
+~*.lck
+_autosave-*
+*.bak
+*.kicad_prl
+fp-info-cache
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Python
+__pycache__/
+*.pyc
+
+# Arduino / PlatformIO
+.pio/
+build/
+
+# Betriebssystem / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.tmp

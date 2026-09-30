@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CO2")(type "KiCad")(uri "${KIPRJMOD}/lib/CO2.pretty")(options "")(descr "Projektbibliothek CO2-Ampel"))
+)

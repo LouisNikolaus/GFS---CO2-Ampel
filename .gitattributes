@@ -1,0 +1,16 @@
+* text=auto
+
+# KiCad- und Skriptdateien immer mit LF speichern (saubere Diffs)
+*.kicad_pro   text eol=lf
+*.kicad_sch   text eol=lf
+*.kicad_pcb   text eol=lf
+*.kicad_sym   text eol=lf
+*.kicad_mod   text eol=lf
+*-lib-table   text eol=lf
+*.py          text eol=lf
+
+# Binaerdateien
+*.stl  binary
+*.zip  binary
+*.png  binary
+*.pdf  binary
