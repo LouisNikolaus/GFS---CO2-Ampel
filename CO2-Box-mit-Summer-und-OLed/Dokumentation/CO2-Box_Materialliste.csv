@@ -1,0 +1,18 @@
+Pos;Bauteil;Wert / Typ;Menge;Bemerkung
+ESP;ESP8266-Board;Wemos D1 mini (oder kompatibel);1;mit USB-Buchse und Reset-Taster
+J2, J3;Buchsenleiste 1x8, RM 2,54;gerade;2;fuer das ESP-Board
+U1;Spannungsregler-Modul;MP1584 Mini-Step-down (Eingang bis 28 V);1;auf 5,0 V einstellen
+U1;Stiftleiste 1x4, RM 2,54;gerade;1;optional, zum Anschluss des Moduls
+C1;Elko radial, bedrahtet;10 uF / 50 V, D 5 mm, RM 2,5;1;Plus an Pad 1
+C2;Elko radial, bedrahtet;10 uF / 16 V, D 5 mm, RM 2,5;1;Plus an Pad 1
+J1;Stiftleiste 1x2 gewinkelt, RM 2,54;24-V-Eingang;1;plus passender Stecker/Kabel
+J4;Stiftleiste 1x7, RM 2,54;zum Sensor-Modul;1;
+SHT30;Sensor-Modul;SHT30 Breakout mit 7 Pins;1;eigene Platine
+D1, D2;RGB-LED 5 mm;gemeinsame Kathode, 4 Beinchen;2;
+R1, R2;Widerstand 0603 SMD;150 Ohm;2;je ein Vorwiderstand im Minus
+J5;Stiftleiste 1x4, RM 2,54;fuer OLED 0,96 Zoll I2C (GND VCC SCL SDA);1;OLED-Modul mit SSD1306, Pinreihenfolge am Modul pruefen
+OLED;OLED-Display 0,96 Zoll I2C;SSD1306, 128x64, 3,3 V;1;teilt sich SDA/SCL mit dem Sensor
+SUM1;Summer aktiv, bedrahtet;12 mm, 5 V, RM 7,6;1;Plus an Pad 1 (+5V)
+T1;NPN-Transistor TO-92;BC547 (C-B-E);1;schaltet den Summer (D3)
+R3;Widerstand 1k;SMD 0603 oder bedrahtet 1/4 W (beides moeglich);1;Vorwiderstand an der Basis von T1
+DF1;Freilaufdiode;1N4148, SMD SOD-123 oder bedrahtet DO-35 (beides moeglich);1;parallel zum Summer, Strich/Kathode an +5V
